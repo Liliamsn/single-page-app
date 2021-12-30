@@ -1,0 +1,29 @@
+p{
+	margin: 0;
+}
+
+h1, h2, h3, h4{
+	margin: 0;
+}
+
+ul{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	margin:0;
+	font-family: 'Italiana', serif;
+	background-color: #F5F4F0;
+}
+
+main {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+header {
+	background-color: #F5F4F0;
+	padding: .2rem 0;
+}
+

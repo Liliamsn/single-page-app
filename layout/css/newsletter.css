@@ -1,0 +1,75 @@
+.envio {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.envio__conteudo {
+	display: flex;
+	width: 940px;
+	margin: 0 auto;
+	line-height: 1.4;
+	font-size: 1.1rem;
+}
+
+.envio__conteudo-chamada {
+	width: 50%;
+}
+
+.envio__conteudo-texto {
+	display: flex;
+	width: 45%;
+}
+
+#email {
+	padding: 10px 6px 10px 6px;
+	width: 400px;
+	height: 30px;
+	border: 0;
+}
+
+#email:focus {
+	outline: none;
+}
+
+#botao-email {
+	background-color: #f5f4f000;
+	border: none;
+	text-transform: uppercase;
+	color: #c27a63;
+	font-weight: bold;
+	background-color: #ffffff;
+	cursor: pointer;
+	padding: 0 10px;
+}
+
+@media screen and (max-width: 468px) {
+	.envio__conteudo {
+		flex-direction: column;
+	}
+
+	.envio__conteudo-chamada {
+		max-width: 468px;
+    	text-align: center;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.envio__conteudo-chamada p {
+		margin: 0;
+    	width: 80%;
+	}
+
+	.envio__conteudo-texto {
+		display: flex;
+		max-width: 468px;
+		margin-left: 40px;
+	}
+
+	#email {
+		width: 300px;
+	}
+
+	#botao-email {
+		display: none;
+	}
+}

@@ -1,0 +1,71 @@
+#home-produtos-grade {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 3rem;
+	margin-top: 7rem;
+	
+}
+
+.produtos__grade {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	line-height: 1.2;
+}
+
+.produtos__grade:hover {
+	border: 1px solid #c27a63;
+}
+
+.produtos__grade img {
+	margin-left: .8rem;
+	margin-right: .8rem;
+}
+
+.produtos__grade div {
+	width: 180px;
+	height: 60px;
+	text-align: center;
+	margin-left: 3rem;
+}
+
+
+.produtos__grade-descricao {
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+.produtos__grade-preco {
+	text-align: center;
+	padding-top: 5px;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.produtos__grade-cartao {
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.produtos__grade-botao {
+	padding: 10px 50px 10px 50px;
+	border: 1px solid #000;
+	margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 468px) {
+	#home-produtos-grade {
+		margin: auto;
+	}
+
+	.produtos__grade {
+		padding-left: 8px;
+		margin-left: 0;
+	}
+}

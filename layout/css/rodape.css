@@ -1,0 +1,87 @@
+.rodape {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.rodape__loja {
+	display: flex;
+	justify-content: space-between;
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.rodape__loja-redes ul {
+	display: flex;
+}
+
+.rodape__loja-redes a {
+	margin-left: 8px;
+	font-size: 20px;
+	color: #c27a63;
+}
+
+.rodape__loja-redes a:hover {
+	color: #A2583F;
+}
+
+.rodape__financeiro {
+	width: 940px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodape__financeiro-pag>div+div {
+	display: flex;
+}
+
+.rodape__financeiro-pag img {
+	margin-left: 5px;
+}
+
+.rodape__financeiro-envio>div+div {
+	display: flex;
+	margin-top: 3px;
+}
+
+.rodape__financeiro-selo>div+div {
+	display: flex;
+	align-items: center;
+	margin-top: 3px;
+}
+
+.rodape__financeiro-selo img {
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 468px) {
+	.rodape__loja {
+		flex-direction: column;
+		max-width: 468px;
+	}
+
+	.rodape__loja-atendimento  div {
+		margin-left: 40px;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+
+	.rodape__loja-sobre {
+		display: none;
+	}
+
+	.rodape__loja-redes {
+		margin-top: 20px;
+		margin-left: 40px;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+
+	.rodape__financeiro {
+		display: none;
+
+	}
+}
+

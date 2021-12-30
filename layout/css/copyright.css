@@ -1,0 +1,29 @@
+.copy {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #F4E6E2;
+}
+
+.copy p {
+	color: #3E3D39;
+}
+
+.copy span {
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+@media screen and (max-width: 468px) {
+	.copy {
+		max-width: 468px;
+		width: 100%;
+	}
+	
+	.copy p {
+		width: 85%;
+		padding-left: 5px;
+    	text-align: center;
+	}
+
+}
